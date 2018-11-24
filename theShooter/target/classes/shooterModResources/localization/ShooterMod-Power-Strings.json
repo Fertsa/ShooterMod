@@ -1,0 +1,112 @@
+{
+  "TheShooter:BarrierFormPower": {
+    "NAME": "Barrier Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain ",
+      " Buffer. ",
+      " plated armor and 1 Buffer"
+    ]
+  },
+  "theShooter:VelocityPower": {
+    "NAME": "Velocity",
+    "DESCRIPTIONS": [
+      "Gain ",
+      " Evasion after playing a card.",
+      " Evasion after playing a card."
+    ]
+  },
+  "theShooter:RarePower": {
+    "NAME": "Placeholder Power",
+    "DESCRIPTIONS": [
+      "At the start of your turn TOUCH ",
+      " enemy.",
+      " enemies."
+    ]
+  },
+  "theShooter:CoolDownPower": {
+    "NAME": "Cool Down",
+    "DESCRIPTIONS": [
+      "At the end of your turn, NL lose ",
+      " Fire Breathing.",
+      " Fire Breathing."
+    ]
+  },
+  "theShooter:GainDexterityPower": {
+    "NAME": "Dex Up",
+    "DESCRIPTIONS": [
+      "Next turn, gain ",
+      " Dexterity for one turn.",
+      " Dexterity for one turn."
+    ]
+  },
+  "theShooter:DareDevilPower": {
+    "NAME": "Dare Devil",
+    "DESCRIPTIONS": [
+      "When you play a card, take ",
+      " damage and draw a card.",
+      " damage and draw that many cards."
+    ]
+  },
+  "theShooter:ReflexPower": {
+    "NAME": "Reflex Shot",
+    "DESCRIPTIONS": [
+      "When attacked fire ",
+      " shot at a random enemy that deals 3 damage. NL Treated as attack damage.",
+      " shots at random enemies that each deal 3 damage NL Treated as attack damage."
+    ]
+  },
+  "theShooter:GrazePower": {
+    "NAME": "Grazed",
+    "DESCRIPTIONS": [
+      "If an enemy attack fails to break your block, gain ",
+      " Block.",
+      " Block."
+    ]
+  },
+  "theShooter:FShieldPower": {
+    "NAME": "Flash Shield",
+    "DESCRIPTIONS": [
+      "If an enemy attack breaks your block, gain ",
+      " Block.",
+      " Block."
+    ]
+  },
+  "theShooter:GainSTRPower": {
+    "NAME": "Str Up",
+    "DESCRIPTIONS": [
+      "Next turn, gain ",
+      " Strength for one turn.",
+      " Strength for one turn."
+    ]
+  },
+  "theShooter:EvasionPower": {
+    "NAME": "Evasion",
+    "DESCRIPTIONS": [
+      "You have a ","% chance to dodge enemy attacks this turn.","% chance to dodge enemy attacks this turn.","Dodged"
+    ]
+  },
+  "theShooter:SkillBurnPower": {
+    "NAME": "Skill Burn",
+    "DESCRIPTIONS": [
+      "Play and exhaust each skill you draw, then draw a new card to replace it."
+    ]
+  },
+  "theShooter:StatusBurnPower": {
+    "NAME": "Status Burn",
+    "DESCRIPTIONS": [
+      "Exhaust each Status you draw, then draw a new card to replace it."
+    ]
+  },
+  "theShooter:AttackBurnPower": {
+    "NAME": "Attack Burn",
+    "DESCRIPTIONS": [
+      "Play and exhaust each attack you draw, then draw a new card to replace it."
+    ]
+  },
+  "theShooter:CURSESPower": {
+    "NAME": "CURSES!",
+    "DESCRIPTIONS": [
+      "Discard any powers you draw and draw a replacement for them. NL When you draw a curse deal ", " damage to all enemies."
+    ]
+  }
+}
