@@ -1,10 +1,10 @@
 {
   "modid": "shootermod",
   "name": "Shooter Mod",
-  "author_list": ["Gremious"],
-  "description": "A base for Slay the Spire to start your own mod from.",
-  "version": "1.0",
+  "author_list": ["Fertsa"],
+  "description": "Adds the Shooter, a spaceship with lasers.",
+  "version": "1.0.2",
   "sts_version": "10-25-2018",
-  "mts_version": "3.5.0",
-  "dependencies": ["basemod"]
+  "mts_version": "3.5.2",
+  "dependencies": ["basemod","StSLib"]
 }

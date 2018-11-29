@@ -80,7 +80,7 @@ public class HeavyHull extends CustomCard implements StartupCard {
             AbstractDungeon.actionManager.addToTop(new AddTemporaryHPAction(AbstractDungeon.player, AbstractDungeon.player, this.magicNumber));
         }
         else {
-            AbstractDungeon.player.drawPile.group.remove(this);
+            AbstractDungeon.actionManager.addToTop(new ExhaustSpecificCardAction(this, AbstractDungeon.player.drawPile));
         }
         return true;
     }

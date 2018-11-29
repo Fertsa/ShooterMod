@@ -75,7 +75,7 @@ public class GoldHull extends CustomCard implements StartupCard {
             AbstractDungeon.player.loseGold(this.magicNumber);
         }
         else {
-            AbstractDungeon.player.drawPile.group.remove(this);
+            AbstractDungeon.actionManager.addToTop(new ExhaustSpecificCardAction(this, AbstractDungeon.player.drawPile));
         }
         return true;
     }

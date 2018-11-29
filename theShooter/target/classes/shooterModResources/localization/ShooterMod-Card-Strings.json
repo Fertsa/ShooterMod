@@ -154,11 +154,11 @@
 	},
 	"theShooter:HeavyHull": {
 		"NAME": "Heavy Hull",
-		"DESCRIPTION": "Startup: Purge. NL Healthy: Gain !M! Temporary HP instead. NL Unplayable. NL Gain !B! block when drawn."
+		"DESCRIPTION": "Startup: Exhaust. NL Healthy: Gain !M! Temporary HP instead. NL Unplayable. NL Gain !B! block when drawn."
 	},
 	"theShooter:GoldHull": {
 		"NAME": "Gold Hull",
-		"DESCRIPTION": "Startup: Purge. NL Wealthy: Change !M! gold into Temporary HP instead. NL Unplayable. NL Gain !RV! Gold when drawn."
+		"DESCRIPTION": "Startup: Exhaust. NL Wealthy: Change !M! gold into Temporary HP instead. NL Unplayable. NL Gain !RV! Gold when drawn."
 	},
 	"theShooter:OpticHull": {
 		"NAME": "Optic Hull",
