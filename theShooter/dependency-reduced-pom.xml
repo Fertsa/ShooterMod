@@ -4,8 +4,8 @@
   <groupId>shootermod</groupId>
   <artifactId>ShooterMod</artifactId>
   <name>ShooterMod</name>
-  <version>1.0.0</version>
-  <description>A base for Slay the Spire to start your own mod from.</description>
+  <version>1.0.2</version>
+  <description>Adds the shooter, a spaceship with lasers.</description>
   <build>
     <finalName>ShooterMod</finalName>
     <plugins>
@@ -59,21 +59,21 @@
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
       <artifactId>ModTheSpire</artifactId>
-      <version>3.6.0</version>
+      <version>3.6.2</version>
       <scope>system</scope>
       <systemPath>${basedir}/../../lib/ModTheSpire.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
       <artifactId>BaseMod</artifactId>
-      <version>5.3.2</version>
+      <version>5.3.4</version>
       <scope>system</scope>
       <systemPath>${basedir}/../../lib/BaseMod.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
       <artifactId>StSLib</artifactId>
-      <version>1.8.0</version>
+      <version>1.9.0</version>
       <scope>system</scope>
       <systemPath>${basedir}/../../lib/StSLib.jar</systemPath>
     </dependency>

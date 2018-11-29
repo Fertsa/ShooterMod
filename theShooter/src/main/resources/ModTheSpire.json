@@ -3,8 +3,8 @@
   "name": "Shooter Mod",
   "author_list": ["Fertsa"],
   "description": "Adds the Shooter, a spaceship with lasers.",
-  "version": "1.0.2",
-  "sts_version": "10-25-2018",
+  "version": "1.0.4",
+  "sts_version": "11-15-2018",
   "mts_version": "3.6.2",
-  "dependencies": ["basemod","StSLib"]
+  "dependencies": ["basemod","stslib"]
 }

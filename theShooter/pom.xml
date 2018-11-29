@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 	
     <name>ShooterMod</name>
-    <description>A base for Slay the Spire to start your own mod from.</description>
+    <description>Adds the shooter, a spaceship with lasers.</description>
 
     <dependencies>
         <dependency>
