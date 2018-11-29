@@ -42,7 +42,8 @@ public class NiftyWrench extends CustomRelic {
                 this.flash();
                 AbstractDungeon.player.hand.group.remove(drawnCard);
                 drawnCard.applyPowers();
-                AbstractDungeon.actionManager.addToTop(new QueueCardAction(drawnCard, AbstractDungeon.getCurrRoom().monsters.monsters.get(0)));
+                AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
+                AbstractDungeon.actionManager.addToBottom(new QueueCardAction(drawnCard, AbstractDungeon.getCurrRoom().monsters.monsters.get(0)));
             }
         }
     }

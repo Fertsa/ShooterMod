@@ -59,9 +59,15 @@ public class CURSESPower extends AbstractPower implements OnCardDrawPower {
             AbstractDungeon.actionManager.addToTop(new VFXAction(this.owner, new CleaveEffect(), 0));
             AbstractDungeon.actionManager.addToTop(new SFXAction("ATTACK_HEAVY"));
         }
-        if (drawnCard.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.actionManager.addToTop(new DiscardSpecificCardAction(drawnCard));
-            AbstractDungeon.actionManager.addToTop(new DrawCardAction(AbstractDungeon.player, 1));
+        else if (drawnCard.color == AbstractCard.CardColor.CURSE){
+            int d = this.amount * 3;
+            AbstractDungeon.actionManager.addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, DamageInfo.createDamageMatrix(d, true) , DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.NONE));
+            AbstractDungeon.actionManager.addToTop(new VFXAction(this.owner, new CleaveEffect(), 0));
+            AbstractDungeon.actionManager.addToTop(new SFXAction("ATTACK_HEAVY"));
+        }
+        else if (drawnCard.type == AbstractCard.CardType.POWER) {
+            AbstractDungeon.actionManager.addToBottom(new DiscardSpecificCardAction(drawnCard));
+            AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, 1));
         }
 
     }
