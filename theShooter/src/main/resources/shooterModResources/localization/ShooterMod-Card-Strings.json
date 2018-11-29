@@ -1,0 +1,190 @@
+{
+	"theShooter:Strike_Gray": {
+		"NAME": "Strike",
+		"DESCRIPTION": "Deal !D! damage."
+	},
+	"theShooter:FireEverything": {
+		"NAME": "Fire Everything!",
+		"DESCRIPTION": "Deal !D! damage to a random enemy [R] times for each card in hand then discard your whole hand."
+	},
+	"theShooter:Defend_Gray": {
+		"NAME": "Defend",
+		"DESCRIPTION": "Gain !B! block."
+	},
+	"theShooter:Velocity": {
+		"NAME": "Velocity",
+		"DESCRIPTION": "Gain !M! Evasion after playing a card.",
+		"UPGRADE_DESCRIPTION": "Gain !M! Evasion after playing a card."
+	},
+	"theShooter:Shot": {
+		"NAME": "Shot",
+		"DESCRIPTION": "Deal !D! damage."
+	},
+	"theShooter:ThreePointShot": {
+		"NAME": "Three Point Shot",
+		"DESCRIPTION": "Deal !D! damage and gain !M! gold. NL Masterful: Deal triple damage."
+	},
+	"theShooter:ReinforceHull": {
+		"NAME": "Reinforce Hull",
+		"DESCRIPTION": "Gain !M! Temporary HP. NL Exhaust."
+	},
+	"theShooter:PowerToWeapons": {
+		"NAME": "Power To Weapons!",
+		"DESCRIPTION": "Gain 2X Strength next turn only.",
+		"UPGRADE_DESCRIPTION": "Gain 2(X+1) Strength next turn only."
+	},
+	"theShooter:BigShot": {
+		"NAME": "Big Shot",
+		"DESCRIPTION": "Deal !D! damage."
+	},
+	"theShooter:MeltArmor": {
+		"NAME": "Melt Armor",
+		"DESCRIPTION": "Apply !M! vulnerable to all enemies, !M! times. NL Exhaust",
+		"UPGRADE_DESCRIPTION": "Apply !M! vulnerable to all enemies, !M! times. NL Exhaust"
+	},
+	"theShooter:BarrierForm": {
+		"NAME": "Barrier Form",
+		"DESCRIPTION": "At the start of your turn, Gain 1 Buffer.",
+		"UPGRADE_DESCRIPTION": "At the start of your turn, Gain 1 Buffer and !PA! Plated Armor."
+	},
+	"theShooter:EvasiveManeuvers": {
+		"NAME": "Evasive Maneuvers",
+		"DESCRIPTION": "Gain !M! Evasion."
+	},
+	"theShooter:FlameThrower": {
+		"NAME": "Flame Thrower",
+		"DESCRIPTION": "Deal !D! damage to all enemies !M! times, then gain !M! Fire Breathing this turn.",
+		"UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies !M! times, then gain !M! Fire Breathing this turn."
+	},
+	"theShooter:PowerToShields": {
+		"NAME": "Power To Shields!",
+		"DESCRIPTION": "Gain 2X Dexterity next turn only.",
+		"UPGRADE_DESCRIPTION": "Gain 2(X+1) Dexterity next turn only."
+	},
+	"theShooter:RushedRepairs": {
+		"NAME": "Rushed Repairs",
+		"DESCRIPTION": "Heal !M! HP 4 times. NL Penalty. NL Exhaust."
+	},
+	"theShooter:Nullify": {
+		"NAME": "Nullify",
+		"DESCRIPTION": "Retain. NL Gain !B! block and !M! Intangible. NL Penalty. NL Exhaust."
+	},
+	"theShooter:TrickShot": {
+		"NAME": "Trick Shot",
+		"DESCRIPTION": "Deal !D! damage and gain !M! gold. NL Penalty. NL Exhaust."
+	},
+	"theShooter:IceMissiles": {
+		"NAME": "Ice Missiles",
+		"DESCRIPTION": "Deal !D! damage to all enemies. NL Masterful: Repeat !M! times.",
+		"UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies. NL Masterful: Repeat !M! times."
+	},
+	"theShooter:LuxuryShield": {
+		"NAME": "Luxury Shield",
+		"DESCRIPTION": "Gain !B! block. NL Wealthy: Change !M! gold into twice as much block."
+	},
+	"theShooter:MultiShot": {
+		"NAME": "Multi-Shot",
+		"DESCRIPTION": "Deal !D! damage twice. NL Healthy: Repeat. NL Wealthy: Repeat. NL Masterful: Repeat."
+	},
+	"theShooter:HullRepairs": {
+		"NAME": "Hull Repairs",
+		"DESCRIPTION": "Heal !M! HP. NL Wealthy: Spend !M! gold to gain !RV! Max HP instead. NL Exhaust."
+	},
+	"theShooter:xXM4d5k1llZXx": {
+		"NAME": "xX_M4d_5k1llZ_Xx",
+		"DESCRIPTION": "Masterful: Gain !GD! gold. NL Wealthy: Gain !M! Dexterity. NL Healthy: Gain !M! Strength. NL Grave. Exhaust"
+	},
+	"theShooter:StorePower": {
+		"NAME": "Store Power",
+		"DESCRIPTION": "Grave Ethereal. NL Double your energy on the first turn of next combat. NL Your [R] becomes 0. NL Exhaust."
+	},
+	"theShooter:DareDevil": {
+		"NAME": "Dare-Devil",
+		"DESCRIPTION": "When you play a card, take !M! damage and draw !M! card.",
+		"UPGRADE_DESCRIPTION": "Innate. NL When you play a card, take !M! damage and draw !M! card."
+	},
+	"theShooter:ReflexShot": {
+		"NAME": "Reflex Shot",
+		"DESCRIPTION": "When attacked, fire !M! shot at a random enemy that deals 3 damage. NL Treated as attack damage.",
+		"UPGRADE_DESCRIPTION": "When attacked, fire !M! shots at random enemies that each deal 3 damage. NL Treated as attack damage."
+	},
+	"theShooter:WarpDrive": {
+		"NAME": "Warp Drive",
+		"DESCRIPTION": "Grave. Ethereal. NL Flee from a Non-Boss combat, lose all your energy on the first turn of next combat.",
+		"UPGRADE_DESCRIPTION": "Cannot run from this fight."
+	},
+	"theShooter:PredictiveShield": {
+		"NAME": "Predictive Shield",
+		"DESCRIPTION": "Grave. Ethereal. NL Gain !B! block on the second turn of next combat. NL Exhaust.",
+		"UPGRADE_DESCRIPTION": "Grave. Ethereal. NL Gain !B! block on the second turn of next combat. NL Draw a card. NL Exhaust."
+	},
+	"theShooter:Grazed": {
+		"NAME": "Grazed",
+		"DESCRIPTION": "If an enemy attack fails to break your block, gain !M! block.",
+		"UPGRADE_DESCRIPTION": "Innate. NL If an enemy attack fails to break your block, gain !M! block."
+	},
+	"theShooter:FlashShield": {
+		"NAME": "Flash Shield",
+		"DESCRIPTION": "Retain. NL Gain !B! + 1 block. NL Masterful: Each time an enemy breaks your block this turn, gain !M! block."
+	},
+	"theShooter:InsistedMastery": {
+		"NAME": "Insisted Mastery",
+		"DESCRIPTION": "Grave. NL Become Masterful again.",
+		"UPGRADE_DESCRIPTION": "Already a master."
+	},
+	"theShooter:Untouchable": {
+		"NAME": "Untouchable",
+		"DESCRIPTION": "Grave. NL Gain !M! Evasion. NL Exhaust."
+	},
+	"theShooter:AntiMatterBeam": {
+		"NAME": "Anti-Matter Beam",
+		"DESCRIPTION": "Grave. NL Give a target enemy !M! Fading. NL Exhaust."
+	},
+	"theShooter:WardingShot": {
+		"NAME": "Warding Shot",
+		"DESCRIPTION": "Deal a random amount of damage from 1 to !D! And gain block equal to !B! + the remainder."
+	},
+	"theShooter:SkillRush": {
+		"NAME": "Skill Rush",
+		"DESCRIPTION": "Draw !M! cards, play and exhaust any skills drawn and draw a replacement for them."
+	},
+	"theShooter:StatusRush": {
+		"NAME": "Status Rush",
+		"DESCRIPTION": "Draw !M! cards, exhaust any statuses drawn and draw a replacement for them."
+	},
+	"theShooter:HeavyHull": {
+		"NAME": "Heavy Hull",
+		"DESCRIPTION": "Startup: Exhaust. NL Healthy: Gain !M! Temporary HP instead. NL Unplayable. NL Gain !B! block when drawn."
+	},
+	"theShooter:GoldHull": {
+		"NAME": "Gold Hull",
+		"DESCRIPTION": "Startup: Exhaust. NL Wealthy: Change !M! gold into Temporary HP instead. NL Unplayable. NL Gain !RV! Gold when drawn."
+	},
+	"theShooter:OpticHull": {
+		"NAME": "Optic Hull",
+		"DESCRIPTION": "Startup: Gain !THP! Temporary HP. NL Unplayable. NL Gain !M! Evasion when drawn."
+	},
+	"theShooter:AutoRepairs": {
+		"NAME": "Auto-Repairs",
+		"DESCRIPTION": "Unplayable. NL Gain !M! Temporary HP when drawn."
+	},
+	"theShooter:WeaponCharge": {
+		"NAME": "Weapon Charge",
+		"DESCRIPTION": "Unplayable. NL Gain !M! Strength when drawn."
+	},
+	"theShooter:ShieldCharge": {
+		"NAME": "Shield Charge",
+		"DESCRIPTION": "Unplayable. NL Gain !M! Dexterity when drawn."
+	},
+	"theShooter:AttackRush": {
+		"NAME": "Attack Rush",
+		"DESCRIPTION": "Draw !M! cards, play and exhaust any attacks drawn and draw a replacement for them. NL Exhaust."
+	},
+	"theShooter:CURSES": {
+		"NAME": "CURSES!",
+		"DESCRIPTION": "Add !M! random curses to your draw pile. NL When you draw an attack or skill, play it on a random target and exhaust it. NL Discard any powers you draw. NL Exhaust any statuses you draw. NL Draw replacements for all of the above. NL When you draw a curse deal 3 damage to all enemies."
+	}
+}
+
+
+
